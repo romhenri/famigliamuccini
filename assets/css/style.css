@@ -32,8 +32,13 @@ header {
   background: #6d151c;
 }
 
+#mainTotal {
+  width: 100%;
+  display: flex; justify-content: center;
+}
+#mainContent {width: 70%; overflow-x: hidden;}
+
 section {
-  width: 60%;
   margin: auto;
   text-align: center;
 }
@@ -51,6 +56,28 @@ footer a {
   color: black;
 }
 
+aside {
+  width: 10%; overflow-x: hidden;
+  position: static; text-align: center; margin-top: 30px;
+}
+
+@media screen and (max-width: 1400px) {
+  aside {
+    width: 0%;
+    display: none;
+  }}
+
+.expoLogo {
+  width: 150px; opacity: 40%; display: none;
+}
+
+/* === TEXTOS ======================================================= */
+
+p {font-family: Catamaran;} 
+#welcomeSpace p {font-family: Arial, Helvetica, sans-serif; text-align: left;}
+#socialLinks p {font-family: Arial, Helvetica, sans-serif;}
+
+
 a {
   color: #fff;
   text-decoration: none;
@@ -58,6 +85,8 @@ a {
 } a:hover {
   opacity: 0.7;
 }
+
+/* === FONTES ======================================================= */
 
 @font-face {
   font-family: Catamaran;
@@ -74,21 +103,13 @@ a {
   src: local(Delinda Agatha), url('assets/fonts/Delinda Agatha.ttf');
 }
 
-
-/* Header */
-
-#name {
-  font-size: 16px;
-  letter-spacing: 4px;
-  margin-left: 10px;
-}
+/* === HEADER ======================================================= */
 
 nav {
-  display: flex;
-  justify-content: space-around;
+  display: flex; justify-content: space-around;
   align-items: center;
   font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
-  height: 8vh;
+  height: 9vh;
 }
 
 main {
@@ -99,19 +120,14 @@ main {
   display: block;
 }
 
-section {
-  width: 60%;
-  margin: auto;
-}
-
 .nav-list {
   list-style: none;
-  display: flex;
+  display: flex; gap: 35px;
 }
 
 .nav-list li {
   letter-spacing: 3px;
-  margin-left: 32px;
+  /* margin-left: 32px; */
 }
 
 .mobile-menu {
@@ -144,6 +160,7 @@ section {
     transform: translateX(100%);
     transition: transform 0.3s ease-in;
     border-radius: 0px 0px 0px 15px;
+    z-index: 1;
   }
   .nav-list li {
     margin-left: 0;
@@ -182,17 +199,26 @@ section {
 }
 
 #logo {
-  width: 5%;
+  width: 50px;
   height: 5%;
   position: relative;
-  top: 5px;
-} #logo:hover {
-  scale: 110%;
+  top: 3px;
 }
 
 #logoName {
-  display: flex;
-  align-items: center;
+  display: flex; flex-direction: row;
+  align-items: center; text-align: center;
+  gap: 20px;
+}
+
+.name {
+  position: relative; top: 8px;
+}
+
+#logoName h2 {
+  margin-left: 10px; color: #Fff;
+  font-family: Delinda Agatha;
+  font-weight: lighter;
 }
 
 /* Sections: Welcome */ 
@@ -205,37 +231,33 @@ section {
 
   padding: 10px 25px 0px 25px;
 
-  /* padding: 25px; */
-
   overflow-y: hidden;
 }
 
 #silvana {
   position: relative;
   top: 10px;
-
+  height: 50vh;
   margin-left: 10px;
   margin-right: 10px;
   max-width: 300px;
   max-height: 500px;
-  min-width: none;
-  min-height: none;
-
   height: 100%;
-  scale: 100%;
+  scale: 140%; top: 50px;
+
   transition: 0.3s;
-} #silvana:hover {
-  scale: 120%;
-  top: 30px;
-  overflow-y: visible;
-  /* margin-top: 10px; */
+  filter: drop-shadow(1);
+}
+
+@media screen and (max-width:1400px) {
+  #silvana {display: none;}
 }
 
 #silvanaBox {
   display: flex;
   align-items: end;
   justify-content: center;
-  max-height: 380px;
+  max-height: 300px;
 }
 
 #meet {
@@ -253,23 +275,22 @@ section {
   margin-top: 20px;
 }
 
-#meet p {
+/* #meet p {
   text-align: left;
   letter-spacing: 0.9pt;
   line-height: 20pt;
-}
-
+} */
 
 /* Sections: SocialLinks */ 
 
 .socialLinks {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 .socialLink {
   background-color: tomato;
-  width: 30%;
+  width: 25%;
   border-radius: 6px;
   padding: 5px;
   color: #fff;
@@ -313,10 +334,56 @@ section {
   margin-right: 12px;
 }
 
-.socialLink p {
-  font-size: 18px;
-  font-family: Arial, Helvetica, sans-serif;
+@media screen and (min-width: 801px) and (max-width: 1000px) {
+  .socialLinks {justify-content: space-between;}
+  .socialLink {width: 30%;}
 }
+
+@media screen and (min-width: 501px) and (max-width: 800px) {
+
+
+
+}
+
+@media screen and (min-width: 800px) {
+  #linkLinkedinR {display: none;}
+  #linkFacebookR {display: none;}
+}
+
+@media screen and (max-width: 800px) {
+  #linkLinkedinR {display: block; display: flex;
+  }
+  #linkFacebookR {display: block; display: flex;
+  }
+
+  .socialLink {
+    padding: 12px;
+    width: 30px; height: 30px;
+
+    border-radius: 250px;
+  } .socialLink p {
+    display: none;
+  } .socialLink img {
+    margin-left: 5px;
+  }
+
+  #containerInfo .infoColumn h2 {
+    font-size: 14px;
+  }
+
+  #item3 {display: none;}
+  #item3R {display: block;}
+
+  /* ======================== */
+
+  #linkFacebook {display: none;}
+  #linkYT {display: none;}
+  #linkLinkedin {display: none;}
+
+  .icon {margin: 0px}
+}
+
+
 
 /* Buttons */
 
@@ -432,76 +499,62 @@ section {
   margin: auto;
 }
 
-/* Media Queries */
+/* Media Queries, A22= width: 320px */
 
-/* A22= width: 320px */
+ /* PC - Full Screen */
+@media screen and (min-width:1401px) {
+  
+  section {width: 90%;}
 
-@media screen and (min-width: 1400px) {
-  #meet p {font-size: 20px;}
+  p {font-size: 1.3vw;}
+  nav li {font-size: 1vw;}
+  #socialLinks p {font-size: 1vw;}
+  #infoSpace p {font-size: 1.1vw;}
 
-  #meet h2 {margin-top: 0px;
-    position: relative; 
-    top: 10px;
-    font-family: Delinda Agatha;}
+}
+
+/* PC - 1400px */
+@media screen and (min-width: 999px) and (max-width: 1400px) {
+  
+  section {width: 90%;}
+  #mainContent {width:80%}
+
+
+  p {font-size: 2vw;}
+  nav li {font-size: 1.2vw;}
+  #socialLinks p {font-size: 1.3vw;}
+  #infoSpace p {font-size: 1.6vw;}
+
+}
+
+/* PC - 1000px */
+@media screen and (min-width: 801px) and (max-width: 1000px) {
     
+  section {width: 90%;}
+  #mainContent {width:80%}
+
+
+  p {font-size: 2.5vw;}
+  nav li {font-size: 1vw;}
+  #socialLinks p {font-size: 1.3vw;}
+  #infoSpace p {font-size: 2vw;}
+
 }
 
-@media (min-width: 880px) and (max-width: 1400px){
+/* PC - 800px */
+@media screen and (min-width: 500px) and (max-width: 800px) {
   
-  section {
-    width: 80%;
-    margin: auto;
-  }
-}
+  section {width: 90%;}
+  #mainContent {width:80%}
 
-@media screen and (max-width: 1000px) {
-  #silvana {
-    display: none;
-  }
-
-  section {
-    width: 80%;
-    margin: auto;
-  }
-
-  #linkPinterest {justify-content: flex-start;}
-}
-
-@media screen and (min-width: 761px) {
-  p {
-   font-size: 24px;
-  }
-
-  .socialLink {
-    justify-content: center;
-  }
-}
-
-@media screen and (max-width: 760px) {
-  section {
-    width: 80%;
-    margin: auto;
-  }
-
-  #meet h2 {
-    font-size: 30px;
-    font-family: Delinda Agatha;
-  }
-
-  #meet p {
-    text-align: left;
-    letter-spacing: 1pt;
-    line-height: 20pt;
-  }
-  
 }
 
 @media screen and (max-width: 500px) {
 
-  .socialLink p {
+  /* .socialLink p {
     font-size: 10px;
     align-items: left;
-  }
+  } */
 
   .icon {
     width: 15px;
@@ -509,34 +562,7 @@ section {
   }
 }
 
-@media screen and (min-width: 431px) {
-  #linkLinkedinR {display: none;}
-  #linkFacebookR {display: none;}
-}
-
 @media screen and (max-width: 430px) {
 
-  .socialLink p {
-    display: none;
-  }
 
-  .socialLink {
-    padding: 12px;
-    width: 15px;
-
-    border-radius: 250px;
-  }
-
-  #containerInfo .infoColumn h2 {
-    font-size: 14px;
-  }
-
-  #item3 {display: none;}
-  #item3R {display: block;}
-
-  /* ======================== */
-
-  #linkFacebook {display: none;}
-  #linkYT {display: none;}
-  #linkLinkedin {display: none;}
 }
