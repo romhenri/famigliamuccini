@@ -31,15 +31,17 @@ function linkedin() {
 
 const TXT = document.getElementById('meet')
 
-
 function next() {
-    TXT.innerHTML= (`
+
+    window.open('https://www.instagram.com/famigliamuccini/');
+
+    // TXT.innerHTML= (`
     
-    <h2>Teste</h2>
+    // <h2>Teste</h2>
          
-    <div id="buttonsLine">
-            <input type="button" value="Saber Mais" class="buttonB" id="nextButton">
-            <input type="button" value="Avançar" class="button" id="nextButton" onclick="next()">
-          </div>
-    `);
+    // <div id="buttonsLine">
+    //         <input type="button" value="Saber Mais" class="buttonB" id="nextButton">
+    //         <input type="button" value="Avançar" class="button" id="nextButton" onclick="next()">
+    //       </div>
+    // `);
 }

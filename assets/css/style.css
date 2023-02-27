@@ -345,9 +345,11 @@ main {
 
 }
 
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 801px) {
   #linkLinkedinR {display: none;}
   #linkFacebookR {display: none;}
+
+  #item3R {display: none;}
 }
 
 @media screen and (max-width: 800px) {
@@ -475,7 +477,7 @@ main {
 #item1 {width: 33%; text-align: left;}
 #item2 {width: 33%;}
 #item3 {width: 33%;}
-#item3R {width: 33%; display: none;}
+#item3R {width: 33%;}
 
 .infoColumn {
   width: 33%;
@@ -499,7 +501,7 @@ main {
   margin: auto;
 }
 
-/* Media Queries, A22= width: 320px */
+/* Media Queries, A22= width: 363px */
 
  /* PC - Full Screen */
 @media screen and (min-width:1401px) {
@@ -545,24 +547,17 @@ main {
 @media screen and (min-width: 500px) and (max-width: 800px) {
   
   section {width: 90%;}
-  #mainContent {width:80%}
+  #mainContent {width:90%}
 
 }
 
-@media screen and (max-width: 500px) {
+/* PC - 800px */
 
-  /* .socialLink p {
-    font-size: 10px;
-    align-items: left;
-  } */
+@media screen and (min-width: 320px) and (max-width: 500px) {
 
-  .icon {
-    width: 15px;
-    margin-right: 8px;
-  }
-}
-
-@media screen and (max-width: 430px) {
-
+  section {width: 90%;}
+  #mainContent {width:90%}
 
 }
+
+
