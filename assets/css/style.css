@@ -43,19 +43,6 @@ section {
   text-align: center;
 }
 
-footer {
-  display: none;
-
-  margin-top: 20px;
-  text-align: center;
-  color: rgb(45, 27, 13);
-  font-size: 12px;
-}
-
-footer a {
-  color: black;
-}
-
 aside {
   width: 10%; overflow-x: hidden;
   position: static; text-align: center; margin-top: 30px;
@@ -70,6 +57,13 @@ aside {
 .expoLogo {
   width: 150px; opacity: 40%; display: none;
 }
+
+footer, footer a {
+  text-align: center;
+  font-family: Catamaran;
+  color: #fff;
+}
+
 
 /* === TEXTOS ======================================================= */
 
@@ -100,16 +94,17 @@ a {
 
 @font-face {
   font-family: Delinda Agatha; 
-  src: local(Delinda Agatha), url('fonts/Delinda-Agatha.ttf');
   src: url('fonts/Delinda-Agatha.eot');
+  src: url('fonts/Delinda-Agatha.ttf');
   src: url('fonts/Delinda-Agatha.woff');
 }
 
 @font-face {
   font-family: Delinda; 
-  src: local(Delinda), url('fonts/Delinda-Agatha.ttf');
   src: url('fonts/Delinda-Agatha.eot');
+  src: url('fonts/Delinda-Agatha.ttf');
   src: url('fonts/Delinda-Agatha.woff');
+  font-weight: normal; font-style: normal;
 }
 
 /* === HEADER ======================================================= */
@@ -291,6 +286,60 @@ main {
   line-height: 20pt;
 } */
 
+.button {
+  margin-top: 20px;
+  font-size: 12pt;
+  color: #fff;
+  background-color: #6d151c;
+  padding: 12px;
+  margin-left: 10px;
+  border-radius: 15px;
+  border: none;
+
+  cursor: pointer;
+  transition: 0.3s;
+} .button:hover {
+  color: #ffffffd2;
+  background-color: #450e12;
+
+  scale: 105%;
+  box-shadow: 2px 2px 10px 1px rgba(0, 0, 0, 0.139);
+} .button:active {
+  scale: 80%;
+}
+
+.buttonB {
+  margin-top: 20px;
+  font-size: 12pt;
+  font-weight: bold;
+  color: #450e12;
+  background-color: #ab92671e;
+  border: 2px solid #450e12;
+
+  padding: 10px;
+  border-radius: 15px;
+
+  cursor: pointer;
+  transition: 0.3s;
+} .buttonB:hover {
+  background-color: #71604334;
+
+  scale: 105%;
+  box-shadow: 2px 2px 10px 1px rgba(0, 0, 0, 0.139);
+} .buttonB:active {
+  scale: 80%;
+}
+
+#buttonsLine {
+  display: flex;
+  justify-content: end;
+  position: relative;
+  /* right: 25pt;*/
+  bottom: 10pt; 
+  text-align: right;
+}
+
+
 /* Sections: SocialLinks */ 
 
 .socialLinks {
@@ -319,6 +368,8 @@ main {
 } .socialLink:hover {
   scale: 110%;
   box-shadow: 2px 2px 10px 1px rgba(0, 0, 0, 0.139);
+} .socialLink:active {
+  scale: 80%;
 }
 
 #linkInstagram {background-image: linear-gradient(
@@ -349,17 +400,15 @@ main {
   .socialLink {width: 30%;}
 }
 
-@media screen and (min-width: 501px) and (max-width: 800px) {
-
-
-
-}
 
 @media screen and (min-width: 801px) {
   #linkLinkedinR {display: none;}
   #linkFacebookR {display: none;}
 
   #item3R {display: none;}
+
+  .socialLink { display: flex;
+    text-align: justify; justify-content: center;}
 }
 
 @media screen and (max-width: 800px) {
@@ -398,59 +447,6 @@ main {
 
 
 /* Buttons */
-
-.button {
-  /* display: none; */
-
-  margin-top: 20px;
-  font-size: 12pt;
-  color: #fff;
-  background-color: #6d151c;
-  padding: 12px;
-  margin-left: 10px;
-  border-radius: 15px;
-  border: none;
-
-  cursor: pointer;
-  transition: 0.3s;
-} .button:hover {
-  color: #ffffffd2;
-  background-color: #450e12;
-
-  scale: 105%;
-  box-shadow: 2px 2px 10px 1px rgba(0, 0, 0, 0.139);
-}
-
-.buttonB {
-  /* display: none; */
-
-  margin-top: 20px;
-  font-size: 12pt;
-  font-weight: bold;
-  color: #450e12;
-  background-color: #ab92671e;
-  border: 2px solid #450e12;
-
-  padding: 10px;
-  border-radius: 15px;
-
-  cursor: pointer;
-  transition: 0.3s;
-} .buttonB:hover {
-  background-color: #7160437c;
-
-  scale: 105%;
-  box-shadow: 2px 2px 10px 1px rgba(0, 0, 0, 0.139);
-}
-
-#buttonsLine {
-  display: flex;
-  justify-content: end;
-  position: relative;
-  /* right: 25pt;*/
-  bottom: 10pt; 
-  text-align: right;
-}
 
 /* Sections: Info */ 
 
@@ -568,6 +564,12 @@ main {
   section {width: 90%;}
   #mainContent {width:90%}
 
+
+
+  #welcomeSpace h2 {font-size: 42px}
+  footer, footer a {
+    font-size: 12px;
+  }
 }
 
 

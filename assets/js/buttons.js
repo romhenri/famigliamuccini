@@ -35,7 +35,6 @@ function youtube() {
     window.open('https://www.youtube.com/@famigliamuccini5273');
 }
 
-
 const TXT = document.getElementById('meet')
 
 function next() {
