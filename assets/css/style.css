@@ -566,7 +566,11 @@ main {
   section {width: 90%;}
   #mainContent {width:90%}
 
-  #welcomeSpace h2 {font-size: 42px}
+  #welcomeSpace h2 {font-size: 42px;
+    font-family: Delinda Agatha;
+    font-family: Delinda;
+    font-weight: lighter;}
+
   footer, footer a {
     font-size: 12px;
   }
