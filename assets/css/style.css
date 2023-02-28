@@ -105,6 +105,13 @@ a {
   src: url('fonts/Delinda-Agatha.woff');
 }
 
+@font-face {
+  font-family: Delinda; 
+  src: local(Delinda), url('fonts/Delinda-Agatha.ttf');
+  src: url('fonts/Delinda-Agatha.eot');
+  src: url('fonts/Delinda-Agatha.woff');
+}
+
 /* === HEADER ======================================================= */
 
 nav {
@@ -220,6 +227,7 @@ main {
 #logoName h2 {
   margin-left: 10px; color: #Fff;
   font-family: Delinda Agatha;
+  font-family: Delinda;
   font-weight: lighter;
 }
 
@@ -491,8 +499,8 @@ main {
 
 .logoMain {
   display: flex;
-  min-width: 50px;
-  max-width: 150px;
+  width: 150px;
+  max-width: 25%;
   margin: auto;
 }
 
