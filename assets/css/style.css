@@ -90,17 +90,19 @@ a {
 
 @font-face {
   font-family: Catamaran;
-  src: local(Catamaran), url('assets/fonts/Catamaran.ttf');
+  src: local(Catamaran), url('fonts/Catamaran.ttf');
 }
 
 @font-face {
   font-family: Lora;
-  src: local(Lora), url('assets/fonts/Lora.ttf');
+  src: local(Lora), url('fonts/Lora.ttf');
 }
 
 @font-face {
   font-family: Delinda Agatha; 
-  src: local(Delinda Agatha), url('assets/fonts/Delinda Agatha.ttf');
+  src: local(Delinda Agatha), url('fonts/Delinda-Agatha.ttf');
+  src: url('fonts/Delinda-Agatha.eot');
+  src: url('fonts/Delinda-Agatha.woff');
 }
 
 /* === HEADER ======================================================= */

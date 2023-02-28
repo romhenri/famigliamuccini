@@ -23,10 +23,17 @@ function linkedin() {
     window.open('https://www.linkedin.com/company/famigliamuccini/');
 }
 
+function facebook() {
+    console.log('Usuário direcionado ao Linkedin.');
 
+    window.open('https://www.facebook.com/FamigliaMuccini');
+}
 
+function youtube() {
+    console.log('Usuário direcionado ao Linkedin.');
 
-
+    window.open('https://www.youtube.com/@famigliamuccini5273');
+}
 
 
 const TXT = document.getElementById('meet')
