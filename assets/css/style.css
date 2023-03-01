@@ -236,7 +236,7 @@ main {
   background-color: #ab92674a;
   border-radius: 15px;
 
-  padding: 10px 25px 0px 25px;
+  padding: 10px 35px 0px 25px;
 
   overflow-y: hidden;
 }
@@ -307,7 +307,7 @@ main {
   scale: 105%;
   box-shadow: 2px 2px 10px 1px rgba(0, 0, 0, 0.139);
 } .button:active {
-  scale: 80%;
+  scale: 90%;
 }
 
 .buttonB {
@@ -324,12 +324,12 @@ main {
   cursor: pointer;
   transition: 0.3s;
 } .buttonB:hover {
-  background-color: #71604334;
+  background-color: #71604323;
 
   scale: 105%;
   box-shadow: 2px 2px 10px 1px rgba(0, 0, 0, 0.139);
 } .buttonB:active {
-  scale: 80%;
+  scale: 90%;
 }
 
 #buttonsLine {
@@ -368,10 +368,10 @@ main {
   padding-top: 10px;
   padding-bottom: 10px;
 } .socialLink:hover {
-  scale: 110%;
+  scale: 108%;
   box-shadow: 2px 2px 10px 1px rgba(0, 0, 0, 0.139);
 } .socialLink:active {
-  scale: 80%;
+  scale: 90%; filter: grayscale(60%);
 }
 
 #linkInstagram {background-image: linear-gradient(
