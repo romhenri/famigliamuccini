@@ -238,7 +238,7 @@ main {
 
   padding: 10px 35px 0px 25px;
 
-  overflow-y: hidden;
+  overflow-y: hidden; margin-bottom: 20px;
 }
 
 #silvana {
@@ -341,6 +341,11 @@ main {
   text-align: right;
 }
 
+
+.reserv {
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
 
 /* Sections: SocialLinks */ 
 
@@ -505,6 +510,13 @@ main {
 #lineHR {
   background: #ffffff72;
   height: 1px;
+  width: 80%;
+  margin: auto;
+}
+
+#lineHRb {
+  background: #2c1f0257;
+  height: 0.5px;
   width: 80%;
   margin: auto;
 }

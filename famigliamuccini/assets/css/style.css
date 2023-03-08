@@ -432,6 +432,13 @@ section {
   margin: auto;
 }
 
+#lineHRb {
+  background: #361c039d;
+  height: 1px;
+  width: 80%;
+  margin: auto;
+}
+
 /* Media Queries */
 
 /* A22= width: 320px */

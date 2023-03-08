@@ -51,3 +51,10 @@ function next() {
     //       </div>
     // `);
 }
+
+function reserv() {
+    
+    console.log('Usuário direcionado para Reservas.');
+
+    window.open('https://www.getinapp.com.br/joao-pessoa/famiglia-muccini-ristorante');
+}
