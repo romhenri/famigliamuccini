@@ -6,7 +6,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<link
 			rel="shortcut icon"
-			href="assets/img/icon-default.png"
+			href="src/img/logo-muccini-250.png"
 			type="image/x-icon"
 		/>
 		<title>Famiglia Muccini</title>
@@ -25,15 +25,158 @@
 			crossorigin="anonymous"
 		></script>
 	</head>
-	<body>
-		<h1>Teste de Framework</h1>
-		<hr />
-		<p>Testando aplicação do Framework Bootstrap.</p>
 
-		<footer>
-			<a href="https://github.com/henri2023">Dev:@henri2023</a> |
-			<a href="https://henri2023.github.io/menu/03/">Menu</a>
+	<!-- === Body =============================================== -->
+
+	<body>
+		<!-- === Navbar =============================================== -->
+
+		<nav
+			class="navbar navbar-expand-lg navbar-light text-light bg-muccini sticky-top"
+		>
+			<div class="container-fluid justify-content-between mx-4">
+				<a
+					class="navbar-brand text-light mx-md-4 m-1 al-center"
+					href="#"
+				>
+					<img
+						src="src/img/logo-muccini-250.png"
+						alt=""
+						class="w40"
+					/>
+					Famiglia Muccini</a
+				>
+				<button
+					class="navbar-toggler text-light search"
+					type="button"
+					data-bs-toggle="collapse"
+					data-bs-target="#navbarScroll"
+					aria-controls="navbarScroll"
+					aria-expanded="false"
+					aria-label="Toggle navigation"
+				>
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse g-5" id="navbarScroll">
+					<ul
+						class="navbar-nav me-auto mx-md-3 my-2 my-lg-0 navbar-nav-scroll"
+						style="--bs-scroll-height: 100px;"
+					>
+						<li class="nav-item text-light text-opacity-75">
+							<a
+								class="nav-link active text-light text-opacity-75"
+								aria-current="page"
+								href="index.html"
+								>Início</a
+							>
+						</li>
+						<li class="nav-item">
+							<a
+								class="nav-link text-light"
+								href="http://menudigital.info/famigliamuccini/"
+								>Menu Digital</a
+							>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link text-light" href="class.html"
+								>Dúvidas</a
+							>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link text-light" href="class.html"
+								>Contato</a
+							>
+						</li>
+					</ul>
+					<form class="d-flex">
+						<input
+							class="form-control me-2"
+							type="search"
+							placeholder="Search"
+							aria-label="Search"
+						/>
+						<button
+							class="btn btn-outline-light text-light search"
+							type="submit"
+						>
+							Search
+						</button>
+					</form>
+				</div>
+			</div>
+		</nav>
+
+		<!-- === Main Content =============================================== -->
+
+		<main id="main" class="col-12 col-xxl-8 mx-auto mt-4">
+			<!-- === Family =============================================== -->
+
+			<section id="infoFamily" class="container-md mb-4 mx-3">
+				
+				<div id="silvanaBox">
+          <img src="src/img/silvana.png" alt="Silvana Mozzini" id="silvana" class="d-none d-sm-block m-xl-3">
+        </div>
+        <div id="meet">
+          <div id="textMeet">
+            <h2>Famiglia Mozzini</h2>
+          <p> 
+            Somos uma família de origem italiana, presente na paraíba desde 1922, que tem como missão: servir! 
+          </p><p>
+            Nossa história começou com o sonho da nossa Chef Silvana Mozzini, que uniu sua paixão pela gastronomia e sua dedicação em servir. Desde então, trabalhamos juntos há 30 anos para levar o melhor aos nossos clientes, proporcionando experiências gastronômicas únicas.
+          </p>
+          </div>
+          <div id="buttonsLine">
+            <input type="button" value="Saber Mais" class="buttonB" id="nextButton">
+            <input type="button" value="Avançar" class="button" id="nextButton" onclick="next()">
+          </div>
+        </div>
+
+
+
+			</section>
+		</main>
+
+		<!-- === Footer =============================================== -->
+
+		<div id="info">
+
+      <div id="lineHR"></div>
+
+        <div id="containerInfo" class="mt-4">
+					<div id="item1" class="infoColumn item">
+						<h4>Endereço</h4>
+						<p>Avenida Nossa Senhora dos Navegantes, 140. Tambaú, João Pessoa - PB</p>
+					</div>
+					<div id="item2" class="infoColumn item">
+						<h4>Horários</h4>
+						<p>Domingo a Domingo:</p>
+
+						<p>12:00 às 15:00</p>
+						<p>18:00 à 00:00</p>
+					</div>
+					<div id="item3" class="infoColumn item">
+          <h4>Telefones</h4>
+          <p>Fone: (83) 3226-8588</p>
+
+          <p>Fone: (83) 3226-8599</p>
+        </div>
+      	</div>
+      
+      <div id="lineHR"></div>
+      <div id="logoSpace">
+        <img src="src/img/logo-muccini-1600.png" alt="Famiglia Muccini" class="logoMain">
+      </div>
+
+		<footer class="container-fluid mx-auto text-center">
+
+			<a href="https://www.linkedin.com/in/r%C3%B4mulo-henri-437763213/">Desenvolvido por Rômulo Henri</a> | <a href="https://www.linkedin.com/in/virg%C3%ADniam/">Copywriting por Virgínia Ramos</a> |  <a href=>Versão 2.0</a>
+			
 		</footer>
+		
+		</div>
+
+
+
 		<script src="src/js/script.js"></script>
 	</body>
 </html>

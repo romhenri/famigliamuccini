@@ -1,0 +1,270 @@
+.bg-muccini {
+  background-color: #6D151C;
+  /* background-image: linear-gradient(to bottom,
+      red,
+      white); */
+}
+
+body {
+  overflow-x: hidden;
+  background-color: #c1b196;
+  background: url("bg-menudigital-700.png") center center;
+  background-size: cover;
+  height: 100vh;
+}
+
+/* === Navbar =============================================== */
+
+.navbar-toggler {
+  color: #fff !important;
+  /* background-color: #fff !important; */
+}
+
+.navbar-toggler-icon {
+  filter: brightness(20%);
+  filter: invert(100%);
+}
+
+ul li {
+  margin: 0px 10px 0px 10px;
+}
+
+.navbar-nav-scroll {
+  max-height: 50vh !important;
+  overflow-y: visible !important;
+}
+
+.navbar-toggler:focus {
+  text-decoration: none !important;
+  outline: 0 !important;
+  box-shadow: none !important;
+}
+
+.navbar-collapse {
+  flex-basis: 100%;
+  /* flex-grow: 1;
+   */
+  justify-content: space-between;
+}
+
+.search {
+  color: #ffffff2c;
+}
+
+.search:hover {
+  background: #ffffff14;
+}
+
+.search:active {
+  background-color: #ffffff38;
+}
+
+/* .search:focus {background-color:#ffffff46;} */
+
+.round {
+  border-radius: 15px;
+}
+
+.al-center {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+/* === Info Family =============================================== */
+
+#infoFamily {
+  display: flex;
+  text-align: center;
+  background-color: #ab92674a;
+  border-radius: 15px;
+
+  padding: 10px 35px 0px 25px;
+
+  overflow-y: hidden;
+  overflow-x: hidden
+}
+
+#silvana {
+  position: relative;
+  top: 8vh;
+  max-width: 300px;
+  max-height: 500px;
+  height: 100%;
+  scale: 140%;
+
+  transition: 0.3s;
+  filter: drop-shadow(1);
+}
+
+@media screen and (max-width: 992px) {
+  #silvana {
+    scale: 120%;
+    right: 10%
+  }
+
+  ;
+
+}
+
+#silvanaBox {
+  display: flex;
+  align-items: end;
+  justify-content: center;
+  max-height: 300px;
+  max-width: 30%;
+}
+
+#meet {
+  transition: 0.3s;
+  display: flex;
+  text-align: start;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+#meet h2 {
+  text-align: left;
+  font-weight: lighter;
+  font-family: Delinda Agatha;
+  font-size: 44pt;
+  margin-top: 20px;
+}
+
+
+.button {
+  margin-top: 20px;
+  font-size: 12pt;
+  color: #fff;
+  background-color: #6d151c;
+  padding: 12px;
+  margin-left: 10px;
+  border-radius: 15px;
+  border: none;
+
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.button:hover {
+  color: #ffffffd2;
+  background-color: #450e12;
+
+  scale: 105%;
+  box-shadow: 2px 2px 10px 1px rgba(0, 0, 0, 0.139);
+}
+
+.button:active {
+  scale: 90%;
+}
+
+.buttonB {
+  margin-top: 20px;
+  font-size: 12pt;
+  font-weight: bold;
+  color: #450e12;
+  background-color: #ab92671e;
+  border: 2px solid #450e12;
+
+  padding: 10px;
+  border-radius: 15px;
+
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.buttonB:hover {
+  background-color: #71604323;
+
+  scale: 105%;
+  box-shadow: 2px 2px 10px 1px rgba(0, 0, 0, 0.139);
+}
+
+.buttonB:active {
+  scale: 90%;
+}
+
+#buttonsLine {
+  display: flex;
+  justify-content: end;
+  position: relative;
+  /* right: 25pt;*/
+  bottom: 10pt;
+  text-align: right;
+}
+
+
+/* === Info Space =============================================== */
+
+#info {
+  width: 100%;
+  background-color: #6d151c;
+  padding-top: 20px;
+  padding-bottom: 30px;
+}
+
+#info div {
+  font-family: "catamaran";
+  font-weight: lighter;
+  font-size: small;
+  color: #fff;
+  text-align: center;
+}
+
+#info div h4 {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+#containerInfo {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 30px;
+}
+
+#item1 {
+  width: 33%;
+  text-align: left;
+}
+
+.item {
+  width: 33%;
+}
+
+.infoColumn {
+  width: 33%;
+}
+
+#logoSpace {
+  margin: 40px;
+}
+
+.logoMain {
+  display: flex;
+  width: 150px;
+  max-width: 25%;
+  margin: auto;
+}
+
+#lineHR {
+  background: #ffffff72;
+  height: 1px;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* === Footer =============================================== */
+
+Footer, footer a {
+  text-decoration: none;
+  cursor: pointer;
+  color: #ffffffc7;
+  transition: 0.3s;
+}
+
+footer a:hover {
+  color: #fff;
+}
