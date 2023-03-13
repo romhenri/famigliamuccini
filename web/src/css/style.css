@@ -26,6 +26,8 @@
   font-style: normal;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Catamaran&family=Charm&family=Dancing+Script&family=Montserrat&display=swap');
+
 
 .bg-muccini {
   background-color: #6D151C;
@@ -160,8 +162,7 @@ ul li {
 #meet h2 {
   text-align: left;
   font-weight: lighter;
-  font-family: Delinda Agatha, Delinda, Catamaran, Arial;
-  font-size: 44pt;
+  font-family: 'Dancing Script', 'Charm', Delinda Agatha, Delinda, Catamaran, sans-serif, Arial;
   margin-top: 20px;
 }
 
@@ -251,7 +252,7 @@ ul li {
 }
 
 #containerInfo {
-  width: 80%;
+  width: 85%;
   margin: auto;
   display: flex;
   justify-content: space-around;
