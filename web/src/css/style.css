@@ -120,7 +120,6 @@ ul li {
 
   padding: 10px 25px 0px 25px;
 
-
   overflow: hidden;
 }
 
@@ -161,9 +160,8 @@ ul li {
 
 #meet h2 {
   text-align: left;
-  font-weight: lighter;
-  font-family: 'Dancing Script', 'Charm', Delinda Agatha, Delinda, Catamaran, sans-serif, Arial;
-  margin-top: 20px;
+  font-family: "Delinda Agatha", "Delinda", 'Dancing Script', 'Charm', "Catamaran", sans-serif, Arial;
+  margin-top: 10px;
 }
 
 
@@ -239,7 +237,7 @@ ul li {
 }
 
 #info div {
-  font-family: "catamaran";
+  font-family: "catamaran", "Montserrat";
   font-weight: lighter;
   font-size: small;
   color: #fff;
@@ -302,4 +300,12 @@ Footer, footer a {
 
 footer a:hover {
   color: #fff;
+}
+
+@media screen and (max-width:512px) {
+
+  Footer, footer a {
+    font-size: 12px;
+  }
+
 }
