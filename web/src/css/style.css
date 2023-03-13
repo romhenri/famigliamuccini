@@ -1,3 +1,32 @@
+@font-face {
+  font-family: Catamaran;
+  src: local(Catamaran), url('fonts/Catamaran.ttf');
+}
+
+@font-face {
+  font-family: Lora;
+  src: local(Lora), url('fonts/Lora.ttf');
+}
+
+@font-face {
+  font-family: Delinda Agatha;
+  src: url('fonts/Delinda-Agatha.eot');
+  src: url('fonts/Delinda-Agatha.ttf');
+  src: url('fonts/Delinda-Agatha.woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Delinda;
+  src: url('fonts/Delinda-Agatha.ttf');
+  src: url('fonts/Delinda-Agatha.eot');
+  src: url('fonts/Delinda-Agatha.woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
 .bg-muccini {
   background-color: #6D151C;
   /* background-image: linear-gradient(to bottom,
@@ -14,6 +43,15 @@ body {
 }
 
 /* === Navbar =============================================== */
+
+nav #brand a {
+  font-family: Delinda, Delinda Agatha, Catamaran, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+nav #logoName {
+  position: relative;
+  top: 4px;
+}
 
 .navbar-toggler {
   color: #fff !important;
@@ -122,7 +160,7 @@ ul li {
 #meet h2 {
   text-align: left;
   font-weight: lighter;
-  font-family: Delinda Agatha;
+  font-family: Delinda Agatha, Delinda, Catamaran, Arial;
   font-size: 44pt;
   margin-top: 20px;
 }
