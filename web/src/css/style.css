@@ -75,14 +75,13 @@ ul li {
 
 #infoFamily {
   display: flex;
-  text-align: center;
   background-color: #ab92674a;
   border-radius: 15px;
 
-  padding: 10px 35px 0px 25px;
+  padding: 10px 25px 0px 25px;
 
-  overflow-y: hidden;
-  overflow-x: hidden
+
+  overflow: hidden;
 }
 
 #silvana {
@@ -94,7 +93,7 @@ ul li {
   scale: 140%;
 
   transition: 0.3s;
-  filter: drop-shadow(1);
+  filter: drop-shadow(1px 1px 3px #00000053);
 }
 
 @media screen and (max-width: 992px) {
@@ -102,9 +101,6 @@ ul li {
     scale: 120%;
     right: 10%
   }
-
-  ;
-
 }
 
 #silvanaBox {
