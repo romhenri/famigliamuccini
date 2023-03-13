@@ -160,7 +160,8 @@ ul li {
 
 #meet h2 {
   text-align: left;
-  font-family: "Delinda Agatha", "Delinda", 'Dancing Script', 'Charm', "Catamaran", sans-serif, Arial;
+  font-weight: 500;
+  font-family: 'Delinda Agatha', 'Delinda', 'Dancing Script', 'Charm', "Catamaran", sans-serif, Arial;
   margin-top: 10px;
 }
 
@@ -305,7 +306,9 @@ footer a:hover {
 @media screen and (max-width:512px) {
 
   Footer, footer a {
-    font-size: 12px;
+    font-size: 14px;
   }
+
+  Footer {}
 
 }
