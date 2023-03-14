@@ -26,7 +26,9 @@
   font-style: normal;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Catamaran&family=Charm&family=Dancing+Script&family=Montserrat&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Catamaran&family=Charm&family=Dancing+Script:wght@400;500;600;700&family=Montserrat&display=swap');
+
 
 
 .bg-muccini {
@@ -113,6 +115,37 @@ ul li {
 
 /* === Info Family =============================================== */
 
+#start {
+  width: 100%;
+  height: 250px;
+  background-image: url(bg-start.-smoth-1000.png);
+  background-size: cover;
+  background-position: center;
+
+  backdrop-filter: brightness(20%);
+  /* filter: brightness(55%); */
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#start button {
+  z-index: 1024;
+  border-radius: 0px !important;
+}
+
+.fn {
+  filter: none;
+}
+
+#start #textMeet p, #start #textMeet h2 {
+  filter: drop-shadow(1px 1px 3px #000);
+}
+
+
+/* === Info Family =============================================== */
+
 #infoFamily {
   display: flex;
   background-color: #ab92674a;
@@ -125,11 +158,11 @@ ul li {
 
 #silvana {
   position: relative;
-  top: 8vh;
+  top: 4.5vh;
   max-width: 300px;
   max-height: 500px;
   height: 100%;
-  scale: 140%;
+  scale: 120%;
 
   transition: 0.3s;
   filter: drop-shadow(1px 1px 3px #00000053);
@@ -139,6 +172,10 @@ ul li {
   #silvana {
     scale: 120%;
     right: 10%
+  }
+
+  #start {
+    height: 200px;
   }
 }
 
@@ -205,6 +242,11 @@ ul li {
   background-color: #ab92673e;
 }
 
+.R {
+  color: #fff;
+  background-color: #6d151c;
+  border-radius: 5px;
+}
 
 #buttonsLine {
   display: flex;
@@ -294,7 +336,7 @@ footer a:hover {
 @media screen and (max-width:512px) {
 
   Footer, footer a {
-    font-size: 14px;
+    font-size: 12px;
   }
 
 }
