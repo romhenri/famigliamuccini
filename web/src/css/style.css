@@ -229,16 +229,17 @@ ul li {
 }
 
 .A {
-  color: #fff;
-  background-color: #6d151c;
+  color: #fff !important;
+  background-color: #6d151c !important;
   margin-left: 10px;
 }
 
 .B {
-  color: #450e12;
-  font-weight: 500;
+  color: #450e12 !important;
+  font-weight: 500 !important;
   background-color: #ab92671e;
-  border: 2px solid #450e12;
+  border: 2px solid #450e12 !important;
+  transition: 0.3s !important;
 }
 
 .B:active {
@@ -487,4 +488,18 @@ footer a:hover {
   Footer, footer a, footer p {
     font-size: 12px;
   }
+}
+
+.modal div {
+  background-image: url(bg-menudigital-700.png);
+  border-radius: 15px;
+}
+
+.modal-header {
+  border-bottom: #450e12 !important;
+
+}
+
+.modal-footer {
+  border-top: #450e12 !important;
 }

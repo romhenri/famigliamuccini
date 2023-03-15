@@ -139,7 +139,7 @@
         </div>
         <div id="meet">
           <div id="textMeet">
-            <h2>Famiglia Mozzini</h2>
+            <h2>Família Mozzini</h2>
           <p> 
             Somos uma família de origem italiana, presente na paraíba desde 1922, que tem como missão: servir! 
           </p><p>
@@ -147,13 +147,12 @@
           </p>
           </div>
           <div id="buttonsLine">
-            <input type="button" value="Saber Mais" class="button B m-2" id="nextButton">
-            <input type="button" value="Avançar" class="button A my-2" id="nextButton" onclick="next()">
+            <input type="button" value="Saber Mais" class="btn button B m-2" id="nextButton" data-bs-toggle="modal" 	data-bs-target="#exampleModal">
+            <a href="https://www.instagram.com/famigliamuccini/"><input type="button" value="Avançar" class="button A my-2" id="nextButton" onclick="next()"></a>
           </div>
         </div>
 
 			</section>
-		
 
 		<!-- === Social Links =============================================== -->
 
@@ -228,6 +227,27 @@
 
 		</main>
 
+		<span>
+			<!-- Modal -->
+			<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+				<div class="modal-dialog">
+					<div class="modal-content">
+						<div class="modal-header">
+							<h5 class="modal-title" id="exampleModalLabel">30 Anos do Grupo Muccini!</h5>
+							<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+						</div>
+						<div class="modal-body">
+							<iframe width="100%" height="300px" src="https://www.youtube.com/embed/Q3Bys7bqHog" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+						</div>
+						<div class="modal-footer">
+							<button type="button" class="btn A" data-bs-dismiss="modal">Fechar</button>
+							<!-- <button type="button" class="btn A">Continuar</button> -->
+						</div>
+					</div>
+				</div>
+			</div>
+		</span>
+
 		<!-- === Footer =============================================== -->
 
 		<div id="info">
@@ -272,7 +292,7 @@
 				<p class="d-none d-md-block align-items-center">|</p>
 			</div>
 			<div id="version" class="flex-row justify-content-center"><a href=>
-				<p>Versão 2.0(.9)</p>
+				<p>Versão 2.0.0</p>
 			</a></div>
 			
 		</footer>
