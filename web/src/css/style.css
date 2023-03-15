@@ -262,19 +262,13 @@ ul li {
 
 /* === Social Links =============================================== */
 
-/* .socialLinks {
-  display: flex;
-  justify-content: space-around;
-}
-
 .socialLink {
   background-color: tomato;
-  width: 25%;
+  max-width: 250px;
   border-radius: 6px;
   padding: 5px;
   color: #fff;
   word-wrap: nowrap;
-  margin-bottom: 20px;
 
   display: flex;
   align-items: center;
@@ -297,7 +291,7 @@ ul li {
   filter: grayscale(60%);
 }
 
-#linkInstagram {
+.instagram {
   background-image: linear-gradient(45deg,
       #f09433 0%,
       #e6683c 25%,
@@ -306,51 +300,32 @@ ul li {
       #bc1888 100%);
 }
 
-#linkWhatsApp {
+.whatsApp {
   background-color: #11BB19;
 }
 
-#linkPinterest {
+.pinterest {
   background-color: #af021c;
 }
 
-#linkFacebookR {
+.facebook {
   background-color: #1E4297;
 }
 
-#linkLinkedinR {
+.linkedin {
   background-color: #0A66C2;
 }
 
-#linkFacebook {
-  background-color: #1E4297;
-}
-
-#linkYT {
+.yt {
   background-color: #c40000;
-}
-
-#linkLinkedin {
-  background-color: #0A66C2;
 }
 
 .icon {
   width: 20px;
-  margin-right: 12px;
-}
-
-@media screen and (min-width: 801px) and (max-width: 1000px) {
-  .socialLinks {
-    justify-content: space-between;
-  }
-
-  .socialLink {
-    width: 30%;
-  }
 }
 
 
-@media screen and (min-width: 801px) {
+@media screen and (min-width: 81px) {
   #linkLinkedinR {
     display: none;
   }
@@ -362,15 +337,9 @@ ul li {
   #item3R {
     display: none;
   }
-
-  .socialLink {
-    display: flex;
-    text-align: justify;
-    justify-content: center;
-  }
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 850px) {
   #linkLinkedinR {
     display: block;
     display: flex;
@@ -382,9 +351,10 @@ ul li {
   }
 
   .socialLink {
+    display: flex;
     padding: 12px;
-    width: 30px;
-    height: 30px;
+    /* width: 30px; */
+    height: 50px;
 
     border-radius: 250px;
   }
@@ -409,24 +379,24 @@ ul li {
     display: block;
   }
 
+  #linkFacebook {
+    display: none;
+  }
 
-#linkFacebook {
-  display: none;
+  #linkYT {
+    display: none;
+  }
+
+  #linkLinkedin {
+    display: none;
+  }
+
+  .icon {
+    margin: 0px
+  }
+
 }
 
-#linkYT {
-  display: none;
-}
-
-#linkLinkedin {
-  display: none;
-}
-
-.icon {
-  margin: 0px
-}
-
-*/
 /* === Info Space =============================================== */
 
 #info {
@@ -507,5 +477,4 @@ footer a:hover {
   Footer, footer a, footer p {
     font-size: 12px;
   }
-
 }
