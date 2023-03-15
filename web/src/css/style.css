@@ -264,7 +264,6 @@ ul li {
 
 .socialLink {
   background-color: tomato;
-  max-width: 250px;
   border-radius: 6px;
   padding: 5px;
   color: #fff;
@@ -273,12 +272,21 @@ ul li {
   display: flex;
   align-items: center;
   transition: 0.3s;
+  align-items: center;
+  gap: 10px;
+  justify-content: center;
 
   cursor: pointer;
   overflow: hidden;
 
   padding-top: 10px;
   padding-bottom: 10px;
+}
+
+.socialLink p {
+
+  margin-bottom: 0px;
+
 }
 
 .socialLink:hover {
@@ -325,30 +333,26 @@ ul li {
 }
 
 
-@media screen and (min-width: 81px) {
-  #linkLinkedinR {
-    display: none;
+@media (min-width: 513px) {
+
+  .socialLink {
+    align-items: center;
+    min-width: 100px;
+    max-width: 30%;
+    overflow-x: hidden;
+
+    flex-wrap: nowrap;
+    max-height: 40px;
   }
 
-  #linkFacebookR {
-    display: none;
+  #socialLinks div a {
+    width: 28%;
+    text-decoration: none;
   }
 
-  #item3R {
-    display: none;
-  }
 }
 
-@media screen and (max-width: 850px) {
-  #linkLinkedinR {
-    display: block;
-    display: flex;
-  }
-
-  #linkFacebookR {
-    display: block;
-    display: flex;
-  }
+@media (max-width: 512px) {
 
   .socialLink {
     display: flex;
@@ -365,6 +369,11 @@ ul li {
 
   .socialLink img {
     margin-left: 5px;
+  }
+
+  .socialLinks2 {
+    justify-content: space-around !important;
+    width: 100%;
   }
 
   #containerInfo .infoColumn h2 {
@@ -425,6 +434,10 @@ ul li {
   display: flex;
   justify-content: space-around;
   margin-bottom: 30px;
+}
+
+.SA {
+  justify-content: space-around !important;
 }
 
 #item1 {

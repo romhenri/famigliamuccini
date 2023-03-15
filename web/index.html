@@ -157,26 +157,30 @@
 
 		<!-- === Social Links =============================================== -->
 
-		<section class="container-md mb-4 socialLinks flex-column" id="socialLinks">
+		<section class="container-md mb-4 socialLinks flex-column justify-content-around" id="socialLinks">
 
-        <div id="lineLinks1" class="flex-row justify-content-around d-flex w-100 mb-3">
+      <div id="lineLinks1" class="flex-row justify-content-around d-flex w-100 mb-3">
 
-					<div class="socialLink instagram" id="linkInstagram"
-       		onclick="instagram()">
-          <img src="src/img/icons/icon-instagram.png" alt="" class="icon">
-          <p>@famigliamuccini</p>
-        	</div>
+					<a href="https://www.instagram.com/famigliamuccini/" target="_blank">
+						<div class="socialLink instagram" id="linkInstagram"
+       			onclick="instagram()">
+          	<img src="src/img/icons/icon-instagram.png" alt="" class="icon">
+          	<p>@famigliamuccini</p>
+        		</div>
+					</a>
 
+					<a href="https://wa.me/5583988850719?text=Ol%C3%A1%2C+vim+do+site" target="_blank">
         	<div class="socialLink whatsApp" id="linkWhatsApp"
         	onclick="whatsapp()">
           <img src="src/img/icons/icon-whatsapp.png" alt="" class="icon">
-          <p>(83) 98885-0719</p>
-        	</div>
+          <p>(83) 98885-0719</p> 
+        	</div> </a>
 
-        	<div class="socialLink facebook" id="linkFacebookR"
+					<a href="https://www.facebook.com/FamigliaMuccini" target="_blank" class="d-sm-none">
+        	<div class="socialLink facebook d-block d-sm-none" id="linkFacebookR"
         	onclick="facebook()">
           <img src="src/img/icons/icon-facebook.png" alt="" class="icon">
-        	</div>
+        	</div> </a>
 
          	<div class="socialLink pinterest" id="linkPinterest"
         	onclick="pinterest()">
@@ -184,34 +188,42 @@
           <p>@famigliamucciniristorante</p>
         </div>
 
-        <div class="socialLink linkedin " id="linkLinkedinR"
+				<a href="https://www.linkedin.com/company/famigliamuccini/" target="_blank" class="d-sm-none">
+        <div class="socialLink linkedin" id="linkLinkedinR"
         onclick="linkedin()">
           <img src="src/img/icons/icon-linkedin-b.png" alt="" class="icon" id="iconLinkedin">
-        </div>
-				</div>
+        </div> </a>
+			</div>
+				
 
-				<div id="lineLinks2" class="flex-row justify-content-around d-flex w-100">
-					<div class="socialLink facebook" id="linkFacebook"
-					onclick="facebook()">
-						<img src="src/img/icons/icon-facebook.png" alt="" class="icon">
-						<p>Famiglia Muccini</p>
-					</div>
+			<div id="lineLinks1" class="flex-row justify-content-around d-flex col-12 mb-3 SA">
+						<a href="https://www.facebook.com/FamigliaMuccini" target="_blank" class="d-none d-sm-block">
+							<div class="socialLink facebook" id="linkFacebook"
+							onclick="facebook()">
+								<img src="src/img/icons/icon-facebook.png" alt="" class="icon">
+								<p>Famiglia Muccini</p>
+							</div>
+				 		</a>
 	
-					<div class="socialLink yt" id="linkYT"
-					onclick="youtube()">
-						<img src="src/img/icons/icon-youtube.png" alt="" class="icon">
-						<p>Famiglia Muccini</p>
-					</div>
+						<a href="https://www.youtube.com/@famigliamuccini5273" target="_blank" class="d-none d-sm-block">
+							<div class="socialLink yt" id="linkYT"
+							onclick="youtube()">
+								<img src="src/img/icons/icon-youtube.png" alt="" class="icon">
+								<p>Famiglia Muccini</p>
+							</div> 
+						</a>
 	
-					<div class="socialLink linkedin" id="linkLinkedin"
-					onclick="linkedin()">
-						<img src="src/img/icons/icon-linkedin-b.png" alt="" class="icon" id="iconLinkedin">
-						<p>Famiglia Muccini</p>
-					</div>
+						<a href="https://www.linkedin.com/company/famigliamuccini/" target="_blank" class="d-none d-sm-block">
+							<div class="socialLink linkedin" id="linkLinkedin"
+							onclick="linkedin()">
+								<img src="src/img/icons/icon-linkedin-b.png" alt="" class="icon" id="iconLinkedin">
+								<p>Famiglia Muccini</p>
+							</div> 
+						</a>
 
-				</div>
+			</div>
 
-      </section>
+    </section>
 
 		</main>
 
@@ -233,7 +245,7 @@
 						<p>12:00 às 15:00</p>
 						<p>18:00 à 00:00</p>
 					</div>
-					<div id="item3" class="infoColumn item">
+					<div id="item3" class="infoColumn item d-block">
           <h4>Telefones</h4>
           <p>Fone: (83) 3226-8588</p>
 
@@ -259,7 +271,7 @@
 				<p class="d-none d-md-block align-items-center">|</p>
 			</div>
 			<div id="version" class="flex-row justify-content-center"><a href=>
-				<p>Versão 2.0(.7)</p>
+				<p>Versão 2.0(.8)</p>
 			</a></div>
 			
 		</footer>
