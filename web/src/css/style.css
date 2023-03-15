@@ -267,7 +267,7 @@ ul li {
   border-radius: 6px;
   padding: 5px;
   color: #fff;
-  word-wrap: nowrap;
+  /* word-wrap: nowrap; */
 
   display: flex;
   align-items: center;
@@ -337,9 +337,6 @@ ul li {
 
   .socialLink {
     align-items: center;
-    min-width: 100px;
-    max-width: 30%;
-    overflow-x: hidden;
 
     flex-wrap: nowrap;
     max-height: 40px;
