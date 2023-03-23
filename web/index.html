@@ -29,10 +29,10 @@
 		></script>
 	</head>
 
-	<!-- === Body =============================================== -->
+	<!--: === Body =============================================== -->
 
 	<body>
-		<!-- === Navbar =============================================== -->
+		<!--: === Navbar =============================================== -->
 
 		<nav
 			class="navbar navbar-expand-lg navbar-light text-light bg-muccini sticky-top"
@@ -69,7 +69,7 @@
 					>
 						<li class="nav-item text-light text-opacity-75">
 							<a
-								class="nav-link active text-light text-opacity-75"
+								class="nav-link active text-light here"
 								aria-current="page"
 								href="index.html"
 								>Início</a
@@ -83,7 +83,7 @@
 							>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link text-light" href="#info"
+							<a class="nav-link text-light" href="Pages/questions.html"
 								>Dúvidas</a
 							>
 						</li>
@@ -111,28 +111,30 @@
 			</div>
 		</nav>
 
-		<!-- === Main Content =============================================== -->
+		<!--: === Start =========================================== -->
 
 		<div id="start" class="container-fluid">
 
 			<div class="container-fluid text-center z-2 fn pt-4">
 
-				<div id="textMeet" class="text-light">
+				<div id="textWelcome" class="text-light">
 					<h1 class="mb-2">Seja Bem-vindo(a)!
 					</h1>
 				<p> 
 					<!-- Estamos preparados e felizes em te receber em nossa casa: -->
 				</p>
 				</div>
-				<a href="https://www.getinapp.com.br/joao-pessoa/famiglia-muccini-ristorante" target="_blank"><input type="button" value="Fazer Reserva" class=" button R my-2" id="reservButton" onclick=""></a>
+				<a href="https://www.getinapp.com.br/joao-pessoa/famiglia-muccini-ristorante" target="_blank"><input type="button" value="Fazer Reserva" class="button R my-2" id="reservButton" onclick=""></a>
 			</div>
 
 		</div>
 
-		<main id="main" class="container-fluid col-12 col-xxl-8 mx-auto mt-4">
-			<!-- === Family =============================================== -->
+		<!--: === Main Content =========================================== -->
 
-			<section id="infoFamily" class="container-md mb-4">
+		<main id="main" class="container-fluid col-12 col-xxl-8 mx-auto mt-4">
+			<!--: === Family =============================================== -->
+
+			<section id="infoFamily" class="container-md mb-4 bg-muc">
 				
 				<div id="silvanaBox">
           <img src="src/img/silvana.png" alt="Silvana Mozzini" id="silvana" class="d-none d-sm-block m-xl-3">
@@ -147,14 +149,14 @@
           </p>
           </div>
           <div id="buttonsLine">
-            <input type="button" value="Saber Mais" class="btn button B m-2" id="nextButton" data-bs-toggle="modal" 	data-bs-target="#exampleModal">
+            <input type="button" value="Saber Mais" class="btn button B m-2" id="moreInfoButton" data-bs-toggle="modal" 	data-bs-target="#exampleModal">
             <a href="https://www.instagram.com/famigliamuccini/"><input type="button" value="Avançar" class="button A my-2" id="nextButton" onclick="next()"></a>
           </div>
         </div>
 
 			</section>
 
-		<!-- === Social Links =============================================== -->
+		<!--: === Social Links ========================================= -->
 
 		<section class="container-md mb-4 socialLinks flex-column justify-content-around" id="socialLinks">
 
@@ -191,12 +193,12 @@
 				<a href="https://www.linkedin.com/company/famigliamuccini/" target="_blank" class="d-sm-none">
         <div class="socialLink linkedin" id="linkLinkedinR"
         onclick="linkedin()">
-          <img src="src/img/icons/icon-linkedin-b.png" alt="" class="icon" id="iconLinkedin">
+          <img src="src/img/icons/icon-linkedin-b.png" alt="" class="icon" id="iconLinkedinR">
         </div> </a>
 			</div>
 				
 
-			<div id="lineLinks1" class="flex-row justify-content-around d-flex col-12 mb-3 SA">
+			<div id="lineLinks2" class="flex-row justify-content-around d-flex col-12 mb-3 SA">
 						<a href="https://www.facebook.com/FamigliaMuccini" target="_blank" class="d-none d-sm-block">
 							<div class="socialLink facebook" id="linkFacebook"
 							onclick="facebook()">
@@ -248,11 +250,11 @@
 			</div>
 		</span>
 
-		<!-- === Footer =============================================== -->
+		<!--: === Footer =============================================== -->
 
 		<div id="info">
 
-      <div id="lineHR"></div>
+      <div class="lineHR"></div>
 
         <div id="containerInfo" class="mt-4">
 					<div id="item1" class="infoColumn item">
@@ -274,7 +276,7 @@
         </div>
       	</div>
       
-      <div id="lineHR"></div>
+      <div class="lineHR"></div>
       <div id="logoSpace">
         <img src="src/img/logo-muccini-1600.png" alt="Famiglia Muccini" class="logoMain">
       </div>
@@ -292,7 +294,7 @@
 				<p class="d-none d-md-block align-items-center">|</p>
 			</div>
 			<div id="version" class="flex-row justify-content-center"><a href=>
-				<p>Versão 2.0.1</p>
+				<p>Versão 2.1.0</p>
 			</a></div>
 			
 		</footer>
