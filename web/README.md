@@ -4,6 +4,8 @@ Projeto.
 
 # 2.0
 
-### 2.0.1
+Migração e Adaptação para código com Bootstrap.
 
-Ajustes de texto: exclusão do subtítulo de "Seja Bem-Vindo(a)" e alteração de data (1922, 1991).
+## 2.1
+
+Página de Dúvidas com perguntas frequentes.
