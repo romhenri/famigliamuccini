@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link
+			rel="shortcut icon"
+			href="src/img/logo-muccini-250.png"
+			type="image/x-icon"
+		/>
+		<title>Famiglia Muccini</title>
+		<link rel="stylesheet" href="src/css/ddt-vulcan-main.css" />
+		<link rel="stylesheet" href="src/css/style.css" />
+		<link rel="stylesheet" href="src/css/ddt-aux.css" />
+		<link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css"/>
+		<link
+			href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+			rel="stylesheet"
+			integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+			crossorigin="anonymous"
+		/>
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Catamaran&family=Charm&family=Dancing+Script:wght@400;500;600;700&family=Montserrat&display=swap" rel="stylesheet">
+		<script
+			src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+			integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+			crossorigin="anonymous"
+		></script>
+	</head>
+
+	<!--: === Body =============================================== -->
+
+	<body>
+		<!--: === Navbar =============================================== -->
+
+		<nav
+			class="navbar navbar-expand-lg navbar-light text-light bg-muccini sticky-top"
+		>
+			<div class="container-fluid justify-content-between mx-sm-5">
+				<div id="brand">
+					<a
+					class="navbar-brand text-light mx-md-4 m-1 al-center"
+					href="#"
+				>
+					<img
+						src="src/img/logo-muccini-250.png"
+						alt=""
+						class="w40"
+					/>
+					<img src="src/img/logo-name.png" alt="" class="w180" id="logoName"></a
+				>
+				</div>
+				<button
+					class="navbar-toggler text-light search"
+					type="button"
+					data-bs-toggle="collapse"
+					data-bs-target="#navbarScroll"
+					aria-controls="navbarScroll"
+					aria-expanded="false"
+					aria-label="Toggle navigation"
+				>
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse g-5" id="navbarScroll">
+					<ul
+						class="navbar-nav me-auto mx-md-3 my-2 my-lg-0 navbar-nav-scroll"
+						style="--bs-scroll-height: 100px;"
+					>
+						<li class="nav-item text-light text-opacity-75">
+							<a
+								class="nav-link active text-light here"
+								aria-current="page"
+								href="index.html"
+								>Início</a
+							>
+						</li>
+						<li class="nav-item">
+							<a
+								class="nav-link text-light menuDigital"
+								href="#menu-digital"
+								>Menu Digital</a
+							>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link text-light" href="#questions"
+								>Dúvidas</a
+							>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link text-light" href="#info"
+								>Contato</a
+							>
+						</li>
+					</ul>
+					<form class="d-flex">
+						<input
+							class="form-control me-2"
+							type="search"
+							placeholder="Assunto..."
+							aria-label="Search"
+						/>
+						<button
+							class="btn btn-outline-light text-light search"
+							type="submit"
+						>
+							Pesquisar
+						</button>
+					</form>
+				</div>
+			</div>
+		</nav>
+
+		<!--: === Start =========================================== -->
+
+		<div id="start" class="container-fluid">
+
+			<div class="container-fluid text-center z-2 fn pt-4">
+
+				<div id="textWelcome" class="text-light">
+					<h1 class="mb-2">Seja Bem-vindo(a)!
+					</h1>
+				<p> 
+					<!-- Estamos preparados e felizes em te receber em nossa casa: -->
+				</p>
+				</div>
+				<a href="https://www.getinapp.com.br/joao-pessoa/famiglia-muccini-ristorante" target="_blank"><input type="button" value="Fazer Reserva" class="button R my-2" id="reservButton" onclick=""></a>
+			</div>
+
+		</div>
+
+		<!--: === Main Content =========================================== -->
+
+		<main id="main" class="container-fluid col-12 col-xxl-8 mx-auto mt-4">
+			<!--: === Family =============================================== -->
+
+			<section id="infoFamily" class="container-md mb-4 bg-muc">
+				
+				<div id="silvanaBox">
+          <img src="src/img/silvana.png" alt="Silvana Mozzini" id="silvana" class="d-none d-sm-block m-xl-3">
+        </div>
+        <div id="meet">
+          <div id="textMeet">
+            <h2>Família Mozzini</h2>
+          <p> 
+            Somos uma família de origem italiana, presente na paraíba desde 1991, que tem como missão: servir! 
+          </p><p>
+            Nossa história começou com o sonho da nossa Chef Silvana Mozzini, que uniu sua paixão pela gastronomia e sua dedicação em servir. Desde então, trabalhamos juntos há 30 anos para levar o melhor aos nossos clientes, proporcionando experiências gastronômicas únicas.
+          </p>
+          </div>
+          <div id="buttonsLine">
+            <input type="button" value="Saber Mais" class="btn button B m-2" id="moreInfoButton" data-bs-toggle="modal" 	data-bs-target="#exampleModal">
+            <a href="https://www.instagram.com/famigliamuccini/"><input type="button" value="Avançar" class="button A my-2" id="nextButton" onclick="next()"></a>
+          </div>
+        </div>
+
+			</section>
+
+		<!--: === Social Links ========================================= -->
+
+		<section class="container-md mb-3 socialLinks flex-column justify-content-around" id="socialLinks">
+
+      <div id="lineLinks1" class="flex-row justify-content-around d-flex w-100 mb-3">
+
+					<a href="https://www.instagram.com/famigliamuccini/" target="_blank">
+						<div class="socialLink instagram" id="linkInstagram"
+       			onclick="instagram()">
+          	<img src="src/img/icons/icon-instagram.png" alt="" class="icon">
+          	<p>@famigliamuccini</p>
+        		</div>
+					</a>
+
+					<a href="https://wa.me/5583988850719?text=Ol%C3%A1%2C+vim+do+site" target="_blank">
+        	<div class="socialLink whatsApp" id="linkWhatsApp"
+        	onclick="whatsapp()">
+          <img src="src/img/icons/icon-whatsapp.png" alt="" class="icon">
+          <p>(83) 98885-0719</p> 
+        	</div> </a>
+
+					<a href="https://www.facebook.com/FamigliaMuccini" target="_blank" class="d-sm-none">
+        	<div class="socialLink facebook d-block d-sm-none" id="linkFacebookR"
+        	onclick="facebook()">
+          <img src="src/img/icons/icon-facebook.png" alt="" class="icon">
+        	</div> </a>
+
+					<a href="https://br.pinterest.com/famigliamucciniristorante/" target="_blank">
+         	<div class="socialLink pinterest" id="linkPinterest"
+        	onclick="pinterest()">
+          <img src="src/img/icons/icon-pinterest-b.png" alt="" class="icon">
+          <p>@famigliamucciniristorante</p>
+        	</div></a>
+
+				<a href="https://www.linkedin.com/company/famigliamuccini/" target="_blank" class="d-sm-none">
+        <div class="socialLink linkedin" id="linkLinkedinR"
+        onclick="linkedin()">
+          <img src="src/img/icons/icon-linkedin-b.png" alt="" class="icon" id="iconLinkedinR">
+        </div> </a>
+			</div>
+				
+
+			<div id="lineLinks2" class="flex-row justify-content-around d-flex col-12 mb-3 SA">
+						<a href="https://www.facebook.com/FamigliaMuccini" target="_blank" class="d-none d-sm-block">
+							<div class="socialLink facebook" id="linkFacebook"
+							onclick="facebook()">
+								<img src="src/img/icons/icon-facebook.png" alt="" class="icon">
+								<p>Famiglia Muccini</p>
+							</div>
+				 		</a>
+	
+						<a href="https://www.youtube.com/@famigliamuccini5273" target="_blank" class="d-none d-sm-block">
+							<div class="socialLink yt" id="linkYT"
+							onclick="youtube()">
+								<img src="src/img/icons/icon-youtube.png" alt="" class="icon">
+								<p>Famiglia Muccini</p>
+							</div> 
+						</a>
+	
+						<a href="https://www.linkedin.com/company/famigliamuccini/" target="_blank" class="d-none d-sm-block">
+							<div class="socialLink linkedin" id="linkLinkedin"
+							onclick="linkedin()">
+								<img src="src/img/icons/icon-linkedin-b.png" alt="" class="icon" id="iconLinkedin">
+								<p>Famiglia Muccini</p>
+							</div> 
+						</a>
+
+			</div>
+    </section>
+
+		<!--: === Questions =========================================== -->	
+
+		<section id="questions" class="mx-4 my-4 mt-4">
+			<h2>Dúvidas Frequentes</h2>
+			<hr>
+			<div class="accordion accordion-flush" id="accordionFlushExample">
+			<h3 class="my-3">Sobre Horários e Funcionamento:</h3>
+			<div class="accordion-item bg-muc">
+				<h4 class="accordion-header " id="flush-headingTwo">
+					<button class="accordion-button collapsed bg-muc" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+						Qual o horário de funcionamento?
+					</button>
+				</h4>
+				<div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+					<div class="accordion-body">
+						<p>Nosso horário de funcionamento inicia às 11:30–15:00 e retorna às
+							18:00–00:00.</p>
+					</div>
+				</div>
+			</div>
+			<div class="accordion-item bg-muc">
+				<h4 class="accordion-header" id="flush-headingThree">
+					<button class="accordion-button collapsed bg-muc" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+						Como faço para efetuar a reserva?
+					</button>
+				</h4>
+				<div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+					<div class="accordion-body">
+						<p>Mensagem no nosso Whatsapp: (83) 98885-0719 </p>
+						<p>Ligar para o nosso número: (83)  3226-8588 </p>
+						Nosso Link para reservas: <br> <a href="https://www.getinapp.com.br/joao-pessoa/famiglia-muccini-ristorante" target="_blank" rel="noopener noreferrer">https://www.getinapp.com.br/joao-pessoa/famiglia-muccini-ristorante</a>
+					</div>
+				</div>
+			</div>
+			<h3 class="my-3">Sobre Pratos e Serviços:</h3>
+			<div class="accordion-item bg-muc">
+				<h4 class="accordion-header" id="flush-headingFour">
+					<button class="accordion-button collapsed bg-muc" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseThree">
+						Famiglia Muccini oferece opção de rodízio?
+					</button>
+				</h3>
+				<div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlushExample">
+					<div class="accordion-body">
+						<p>Trabalhamos apenas com um Menu à La carte. Além da nossa Mesa de frios (kg), contamos com um Menu Kids e um Menu Executivo especial para o horário do almoço.</p>
+					</div>
+				</div>
+			</div>
+			<h3 class="my-3">Sobre a Casa:</h3>
+			<div class="accordion-item bg-muc">
+				<h4 class="accordion-header" id="flush-headingOne">
+					<button class="accordion-button collapsed bg-muc" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+						Onde fica localizado o restaurante?
+					</button>
+				</h4>
+				<div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+					<div class="accordion-body">
+						<p>A nossa casa fica localizada na Avenida Nossa Sra. dos Navegantes, 140 - Tambaú , conta com espaço kids e menu executivo. Funcionamos de Domingo a Domingo, durante todos os dias do ano.</p>
+					</div>
+				</div>
+			</div>
+			
+			<div class="accordion-item bg-muc">
+				<h4 class="accordion-header" id="flush-headingFive">
+					<button class="accordion-button collapsed bg-muc" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">
+						Famiglia Muccini possui espaço para crianças?
+					</button>
+				</h3>
+				<div id="flush-collapseFive" class="accordion-collapse collapse" aria-labelledby="flush-headingFive" data-bs-parent="#accordionFlushExample">
+					<div class="accordion-body">
+						<p>Sim, possuímos um Espaço Kids seguro e divertido para a criançada aproveitar!</p>
+					</div>
+				</div>
+			</div>
+			<div class="accordion-item bg-muc">
+				<h3 class="accordion-header" id="flush-headingSeven">
+					<button class="accordion-button collapsed bg-muc" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSeven" aria-expanded="false" aria-controls="flush-collapseSeven">
+						Famiglia Muccini possui espaço para eventos?
+					</button>
+				</h3>
+				<div id="flush-collapseSeven" class="accordion-collapse collapse" aria-labelledby="flush-headingSeven" data-bs-parent="#accordionFlushExample">
+					<div class="accordion-body">
+						<p>Possuímos um espaço reservado especialmente para eventos, com ambiente climatizado, perfeito para reunir a família, amigos e confraternizar com colegas de trabalho.</p>
+					</div>
+				</div>
+			</div>
+
+			<h3 class="my-3">Outros:</h3>
+			<div class="accordion-item bg-muc">
+				<h3 class="accordion-header" id="flush-headingSix">
+					<button class="accordion-button collapsed bg-muc" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSix" aria-expanded="false" aria-controls="flush-collapseSix">
+						Famiglia Muccini e Sapore D’Itália são do mesmo grupo?
+					</button>
+				</h3>
+				<div id="flush-collapseSix" class="accordion-collapse collapse" aria-labelledby="flush-headingSix" data-bs-parent="#accordionFlushExample">
+					<div class="accordion-body">
+						<p>Sim, ambas são empresas do Grupo Muccini.</p>
+
+					</div>
+				</div>
+			</div>
+		</div>
+		</section>
+
+		</main>
+
+<!--: === Modais =============================================== -->
+
+		<span>
+			<!-- Modal -->
+			<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+				<div class="modal-dialog">
+					<div class="modal-content">
+						<div class="modal-header">
+							<h5 class="modal-title" id="exampleModalLabel">30 Anos do Grupo Muccini!</h5>
+							<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+						</div>
+						<div class="modal-body">
+							<iframe width="100%" height="300px" src="https://www.youtube.com/embed/Q3Bys7bqHog" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+						</div>
+						<div class="modal-footer">
+							<button type="button" class="btn A" data-bs-dismiss="modal">Fechar</button>
+							<!-- <button type="button" class="btn A">Continuar</button> -->
+						</div>
+					</div>
+				</div>
+			</div>
+		</span>
+
+		<!--: === Footer =============================================== -->
+
+		<div id="info">
+
+      <div class="lineHR"></div>
+
+        <div id="containerInfo" class="mt-4">
+					<div id="item1" class="infoColumn item">
+						<h4>Endereço</h4>
+						<p>Avenida Nossa Senhora dos Navegantes, 140. Tambaú, João Pessoa - PB</p>
+					</div>
+					<div id="item2" class="infoColumn item">
+						<h4>Horários</h4>
+						<p>Domingo a Domingo:</p>
+
+						<p>12:00 às 15:00</p>
+						<p>18:00 à 00:00</p>
+					</div>
+					<div id="item3" class="infoColumn item d-block">
+          <h4>Telefones</h4>
+          <p>Fone: (83) 3226-8588</p>
+
+          <p>Fone: (83) 3226-8599</p>
+        </div>
+      	</div>
+      
+      <div class="lineHR"></div>
+      <div id="logoSpace">
+        <img src="src/img/logo-muccini-1600.png" alt="Famiglia Muccini" class="logoMain">
+      </div>
+
+		<footer class="container-fluid mx-auto text-center d-sm-flex justify-content-center g15 align-items-center">
+
+			<div id="authors" class="flex-row justify-content-around g5 align-items-center">
+				<a href="https://www.linkedin.com/in/r%C3%B4mulo-henri-437763213/">
+					<p>Desenvolvido por Rômulo Henri</p>
+				</a>
+				<p class="d-block">|</p>
+				<a href="https://www.linkedin.com/in/virg%C3%ADniam/">
+					<p>Copywriting por Virgínia Ramos</p>
+				</a>
+				<p class="d-none d-md-block align-items-center">|</p>
+			</div>
+			<div id="version" class="flex-row justify-content-center"><a href=>
+				<p>Versão 2.1.7</p>
+			</a></div>
+			
+		</footer>
+		
+		</div>
+
+		<script src="src/js/script.js"></script>
+	</body>
+</html>
