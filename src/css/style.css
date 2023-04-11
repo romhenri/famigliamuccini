@@ -299,6 +299,10 @@ button .bg-muc {
   justify-content: space-between;
 }
 
+h2 {
+  text-align: center;
+}
+
 #meet h2 {
   text-align: left;
   font-weight: 600;
@@ -620,4 +624,75 @@ footer a:hover {
 
 .modal-footer {
   border-top: #450e12 !important;
+}
+
+/* Food */
+
+#food {
+  padding: 20px 10px 20px 10px;
+  border-radius: 15px;
+}
+
+#food h2 {
+  margin-bottom: 20px;
+}
+
+.flex-line {
+  width: 100%;
+  border-radius: 15px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.flex-line div {
+  height: 200px;
+  background-color: tomato;
+  overflow: hidden;
+  overflow: hidden;
+}
+
+.flex-line div div {
+  background-size: cover;
+  
+}
+
+.slide:hover {
+  scale: 120%;
+  transition: .3s ease-in .5s;
+}
+
+#item1 .slide {
+  background-image: url(../img/slide1-01.jpg);
+}
+
+#item2 .slide {
+  background-image: url(../img/slide1-02.jpg);
+}
+
+#item3 .slide {
+  background-image: url(../img/slide1-03.jpg);
+}
+
+.flex-line #item3 {
+  border-radius: 0px 15px 15px  0px;
+}
+
+.flex-line #item1 {
+  border-radius: 15px  0px 0px 15px  ;
+}
+
+@media screen and (max-width: 515px) {
+  
+  /* .flex {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .flex-line .item {
+    max-width: 50%
+  } */
+
+  #food {
+    display: none;
+  }
 }
