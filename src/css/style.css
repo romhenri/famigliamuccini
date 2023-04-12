@@ -135,7 +135,7 @@ form button.btn-outline-light {
   --bs-btn-hover-color: #ffffff;
   --bs-btn-hover-bg: #5a0913e1;
   --bs-btn-hover-border-color: #f8f9fa;
-  --bs-btn-focus-shadow-rgb: 248,249,250;
+  --bs-btn-focus-shadow-rgb: 248, 249, 250;
   --bs-btn-active-color: #000;
   --bs-btn-active-bg: #5a0913e1;
   --bs-btn-active-border-color: #f8f9fa;
@@ -161,7 +161,7 @@ form button.btn-outline-light {
   -moz-appearance: none;
   appearance: none;
   border-radius: 0.375rem;
-  transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+  transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
 }
 
 .accordion ::after {
@@ -645,7 +645,7 @@ footer a:hover {
 }
 
 .flex-line div {
-  height: 200px;
+  height: 250px;
   background-color: tomato;
   overflow: hidden;
   overflow: hidden;
@@ -653,7 +653,8 @@ footer a:hover {
 
 .flex-line div div {
   background-size: cover;
-  
+  background-position: center center;
+
 }
 
 .slide:hover {
@@ -674,15 +675,15 @@ footer a:hover {
 }
 
 .flex-line #item3 {
-  border-radius: 0px 15px 15px  0px;
+  border-radius: 0px 15px 15px 0px;
 }
 
 .flex-line #item1 {
-  border-radius: 15px  0px 0px 15px  ;
+  border-radius: 15px 0px 0px 15px;
 }
 
 @media screen and (max-width: 515px) {
-  
+
   /* .flex {
     flex-wrap: wrap;
     justify-content: center;

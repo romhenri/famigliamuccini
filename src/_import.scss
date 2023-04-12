@@ -1,0 +1,21 @@
+// 1. Incluir funções primeiro (para conseguir manipular cor, SVGs, calc, etc)
+@import "../node_modules/bootstrap/scss/functions";
+
+// 2. Sobrescreva variáveis aqui
+
+// 3. Incluir o restante das estilizações do Bootstrap necessários para o funcionamento
+@import "../node_modules/bootstrap/scss/variables";
+@import "../node_modules/bootstrap/scss/mixins";
+@import "../node_modules/bootstrap/scss/root";
+
+// 4. Inclua os estilos conforme o necessário
+@import "../node_modules/bootstrap/scss/utilities";
+@import "../node_modules/bootstrap/scss/reboot";
+@import "../node_modules/bootstrap/scss/type";
+@import "../node_modules/bootstrap/scss/images";
+@import "../node_modules/bootstrap/scss/containers";
+@import "../node_modules/bootstrap/scss/grid";
+@import "../node_modules/bootstrap/scss/helpers";
+
+// 5. Opcional, inclua a API de utilitários por último para gerar classes com base no mapa Sass em  `_utilities.scss`
+@import "../node_modules/bootstrap/scss/utilities/api";
