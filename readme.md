@@ -1,7 +1,9 @@
 # Famiglia Muccini Website
+
 <!---Esses são exemplos. Veja https://shields.io para outras pessoas ou para personalizar este conjunto de escudos. Você pode querer incluir dependências, status do projeto e informações de licença aqui--->
 
 ![GitHub repo size](https://img.shields.io/github/repo-size/romhenri/famigliamuccini?style=for-the-badge)
+
 <!-- ![GitHub language count](https://img.shields.io/github/languages/count/iuricode/README-template?style=for-the-badge) -->
 <!-- ![GitHub forks](https://img.shields.io/github/forks/iuricode/README-template?style=for-the-badge)
 ![Bitbucket open issues](https://img.shields.io/bitbucket/issues/iuricode/README-template?style=for-the-badge)
@@ -17,12 +19,15 @@
 
 O projeto ainda está em desenvolvimento e as próximas atualizações serão voltadas nas seguintes tarefas:
 
-- [x] Direcionamento para Redes Sociais.
-- [x] Direcionamento para o sistema de Reservas.
-- [x] Página de Dúvidas.
-- [ ] Página de Conatato.
-- [ ] Nova sessão em "Avançar".
-- [ ] Sistema de pesquisa.
+-   [x] Adaptação para Bootstrap.
+-   [x] Direcionamento para Redes Sociais.
+-   [x] Direcionamento para o sistema de Reservas.
+-   [x] Sessão de Dúvidas.
+-   [x] Sessão de Pratos.
+-   [ ] Adaptação para SASS.
+-   [ ] Sessão de Contato.
+-   [ ] Nova sessão em "Avançar".
+-   [ ] Sistema de pesquisa.
 
 <hr>
 

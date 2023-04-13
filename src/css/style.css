@@ -453,7 +453,7 @@ h2 {
 
 }
 
-@media (max-width: 512px) {
+@media (max-width: 600px) {
 
   .socialLink {
     display: flex;
@@ -481,7 +481,7 @@ h2 {
     font-size: 14px;
   }
 
-  #item3 {
+  .socialLink #item3 {
     display: none;
   }
 
@@ -626,7 +626,7 @@ footer a:hover {
   border-top: #450e12 !important;
 }
 
-/* Food */
+/*: Food */
 
 #food {
   padding: 20px 10px 20px 10px;
@@ -646,8 +646,7 @@ footer a:hover {
 
 .flex-line div {
   height: 250px;
-  background-color: tomato;
-  overflow: hidden;
+  background-color: rgb(255, 255, 255);
   overflow: hidden;
 }
 
@@ -680,20 +679,4 @@ footer a:hover {
 
 .flex-line #item1 {
   border-radius: 15px 0px 0px 15px;
-}
-
-@media screen and (max-width: 515px) {
-
-  /* .flex {
-    flex-wrap: wrap;
-    justify-content: center;
-  }
-
-  .flex-line .item {
-    max-width: 50%
-  } */
-
-  #food {
-    display: none;
-  }
 }
