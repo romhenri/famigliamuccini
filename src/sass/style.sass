@@ -1,0 +1,71 @@
+body 
+  background-color: #c1b196
+
+@import 'old-styles'
+@import 'components'
+
+section 
+  max-width: 960px !important
+
+// sass src/sass/styles.sass src/css/stl.css
+
+.w10 
+  width: 10px
+
+.w40
+  width: 40px
+
+.w150 
+  width: 150px
+
+.w180 
+  width: 180px
+
+.w200 
+  width: 200px
+
+.w250 
+  width: 250px
+
+
+.w300 
+  width: 300px
+
+.foo 
+  display: flex
+  flex-direction: row
+  gap: 20px
+
+.form-control
+
+  &:focus 
+    outline: none
+    box-shadow: none
+    border: none
+
+* 
+  accent-color: #6d151c
+
+  &::selection
+    background: rgba(109, 21, 28, .6)
+    color: white 
+
+
+#info *
+  &::selection
+    background: rgba(252, 252, 252, .8)
+    color:  #3b0e12
+
+body::-webkit-scrollbar 
+  width: 14px              /* width of the entire scrollbar */
+
+body::-webkit-scrollbar-track 
+  background: #441014       /* color of the tracking area */
+
+body::-webkit-scrollbar-thumb 
+  background-color:  #c1b196  /* color of the scroll thumb */
+  border-radius: 20px      /* roundness of the scroll thumb */
+  border: 3px solid #6d151c /* creates padding around scroll thumb */
+
+html 
+  scroll-behavior: smooth

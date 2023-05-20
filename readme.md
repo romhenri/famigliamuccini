@@ -24,21 +24,17 @@ O projeto ainda está em desenvolvimento e as próximas atualizações serão vo
 -   [x] Direcionamento para o sistema de Reservas.
 -   [x] Sessão de Dúvidas.
 -   [x] Sessão de Pratos.
--   [ ] Adaptação para SASS.
+-   [x] Adaptação para SASS.
 -   [ ] Sessão de Contato.
 -   [ ] Nova sessão em "Avançar".
--   [ ] Sistema de pesquisa.
+-   [x] Sistema de pesquisa.
 
 <hr>
 
 ### Linguagens e Tecnologias
 
 <div style="display: inline_block">
-  <a href="https://github.com/romhenri/javascript" target="_blank"><img alt="JavaScript" height="54" width="72" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg"></a>
-
-<!-- <a href="https://github.com/romhenri/typeScript" target="_blank">
-  <img alt="Ts" height="54" width="72" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-plain.svg">    <img align="center" alt="React" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg">
-</a> -->
+  <a href="https://github.com/romhenri/javascript" target="_blank"><img alt="JavaScript" height="54" width="72" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plai
 
   <a href="https://github.com/romhenri/html" target="_blank">
   <img alt="HTML" height="54" width="72" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg"></a>
