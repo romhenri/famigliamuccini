@@ -19,14 +19,16 @@
 
 O projeto ainda está em desenvolvimento e as próximas atualizações serão voltadas nas seguintes tarefas:
 
--   [x] Adaptação para Bootstrap.
--   [x] Direcionamento para Redes Sociais.
--   [x] Direcionamento para o sistema de Reservas.
--   [x] Sessão de Dúvidas.
--   [x] Sessão de Pratos.
--   [x] Adaptação para SASS.
--   [ ] Sessão de Contato.
--   [ ] Nova sessão em "Avançar".
+-   [x] Adaptação para Bootstrap;
+-   [x] Direcionamento para Redes Sociais;
+-   [x] Direcionamento para o sistema de Reservas;
+-   [x] Seção de Dúvidas;
+-   [x] Seção de Pratos;
+-   [ ] Seção de Momentos;
+-   [x] Adaptação para SASS;
+-   [ ] Sessão de Contato;
+-   [ ] Nova sessão em "Avançar";
+-   [ ] Lista de e-mails oficiais;
 -   [x] Sistema de pesquisa.
 
 <hr>

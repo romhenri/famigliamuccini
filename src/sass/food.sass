@@ -12,6 +12,10 @@
 		position: relative
 		overflow: hidden
 
+		&:hover
+			scale: 120%
+			transition: .5s ease-out
+
 		&::after
 			content: ''
 			position: absolute
@@ -26,7 +30,7 @@
 		
 		&:hover::after
 			transition: .3s ease-out
-			bottom: 10px
+			bottom: 30px
 			left: 0
 
 .flex-line 
@@ -56,8 +60,7 @@
 #item3 .slide 
 	background-image: url(../img/slide1-03.jpg)
 	&::after
-		content: 'Insalata Ceaser'
-
+		content: 'Insalata Caesar'
 .flex-line :nth-child(3) div
 	border-radius: 0px 15px 15px 0px
 
