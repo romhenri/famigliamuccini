@@ -329,7 +329,7 @@ h2
   color: #450e12 !important
   font-weight: 500 !important
   background-color: #ab92671e
-  border: 2px solid #450e12 !important
+  border: 2px solid #611318 !important
 
 
 .B:active 
@@ -415,9 +415,13 @@ h2
 
   
 @media (max-width: 800px) 
+  .social-container 
+    flex-wrap: nowrap !important
+
   .socialLink
-    min-width: 60px
+    min-width: 40px
     border-radius: 30px
+    padding: 15px
 
     & p
       display: none
@@ -453,7 +457,6 @@ h2
   padding-top: 20px
   padding-bottom: 30px
 
-
 #info div 
   font-family: 'Catamaran', 'Montserrat', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
   font-weight: lighter
@@ -461,11 +464,10 @@ h2
   color: #fff
   text-align: center
 
-
-#info div h4 
+#info div h4
+  width: 100%
   text-align: center
   margin-bottom: 10px
-
 
 #containerInfo 
   width: 85%
@@ -474,27 +476,38 @@ h2
   justify-content: space-around
   margin-bottom: 30px
 
+#authors
+  display: flex
+  flex-wrap: wrap
+
+.infoColumn
+  height: 100%
+  display: flex
+  justify-content: center
+  flex-direction: column
+  align-items: start
+
+.infoColumn div
+  display: flex
+  flex-wrap: wrap
+  width: 100%
+
+.infoColumn div p, .infoColumn p
+  text-align: center
+  width: 100%
+  text-align: center
 
 .SA 
   justify-content: space-around !important
 
-
-#item1 
-  width: 33%
-  text-align: left
-
-
 .item 
   width: 33%
-
 
 .infoColumn 
   width: 33%
 
-
 #logoSpace 
   margin: 40px
-
 
 .logoMain 
   display: flex

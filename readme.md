@@ -36,7 +36,7 @@ O projeto ainda está em desenvolvimento e as próximas atualizações serão vo
 ### Linguagens e Tecnologias
 
 <div style="display: inline_block">
-  <a href="https://github.com/romhenri/javascript" target="_blank"><img alt="JavaScript" height="54" width="72" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plai
+  <a href="https://github.com/romhenri/javascript" target="_blank"><img alt="JavaScript" height="54" width="72" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg"/>
 
   <a href="https://github.com/romhenri/html" target="_blank">
   <img alt="HTML" height="54" width="72" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg"></a>
