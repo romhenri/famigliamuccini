@@ -2,7 +2,6 @@
 
 footer, footer a, footer p, .rights
   text-decoration: none
-  cursor: pointer
   color: #ffffffc7
   transition: 0.3s
 
@@ -10,13 +9,26 @@ footer
   display: flex
   flex-direction: column
 
-footer
-  a:hover, p:hover, .rights:hover
+  #logoSpace
+    display: flex
+    margin: 40px
+    width: 100%
+    flex-direction: row
+    justify-content: space-between
+
+    p
+      display: inline-block
+
+  .logoMain 
+    display: flex
+
+  a:hover
     color: #fff
     text-decoration: underline
+    cursor: pointer
 
-  .rights
-    color: #ffffffc7 !important
+  .rights p
+    color: #ffffffbb !important
 
 @media (max-width:512px) 
 
