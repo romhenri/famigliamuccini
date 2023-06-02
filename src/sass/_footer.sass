@@ -14,10 +14,28 @@ footer
     margin: 40px
     width: 100%
     flex-direction: row
-    justify-content: space-between
+    justify-content: space-around
 
     p
       display: inline-block
+
+    :first-child
+      opacity: 0
+
+    .siteButton
+      width: 190px
+      height: 40px
+      border: 1px solid #fff
+      border-left: none
+      text-transform: uppercase
+      padding: 10px
+      transition: .3s ease-out
+      cursor: pointer
+      
+      &:hover
+        transform: translateX(+10px)
+        cursor: pointer
+        
 
   .logoMain 
     display: flex
