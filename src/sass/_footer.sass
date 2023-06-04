@@ -19,22 +19,29 @@ footer
     p
       display: inline-block
 
-    :first-child
-      opacity: 0
+    a
+      text-decoration: none
 
     .siteButton
       width: 190px
       height: 40px
-      border: 1px solid #fff
-      border-left: none
+      border: 1px solid  #ffffff72
       text-transform: uppercase
       padding: 10px
       transition: .3s ease-out
       cursor: pointer
       
-      &:hover
-        transform: translateX(+10px)
-        cursor: pointer
+      &.btnDigitalMenu
+        border-right: none
+        &:hover
+          transform: translateX(-10px)
+          cursor: pointer
+
+      &.btnAdmin
+        border-left: none
+        &:hover
+          transform: translateX(+10px)
+          cursor: pointer
         
 
   .logoMain 
