@@ -29,7 +29,7 @@
 			padding: 3px
 		
 		&:hover::after
-			transition: .3s ease-out
+			transition: .4s ease-out
 			bottom: 30px
 			left: 0
 
@@ -61,11 +61,18 @@
 	background-image: url(../img/slide1-03.jpg)
 	&::after
 		content: 'Insalata Caesar'
-.flex-line :nth-child(3) div
-	border-radius: 0px 15px 15px 0px
 
-.flex-line :nth-child(1) div
+.flex-line :nth-child(3) div, 
+.flex-line :nth-child(3)
+	border-radius: 0px 15px 15px 0px
+	&:hover
+		border-radius: 0px 15px 15px 0px
+
+.flex-line :nth-child(1) div,
+.flex-line #item1
 	border-radius: 15px 0px 0px 15px
+	&:hover
+		border-radius: 15px 0px 0px 15px
 
 @media (max-width: 800px) 
 	.flex-line div
