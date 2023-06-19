@@ -12,7 +12,6 @@ footer
   #logoSpace
     display: flex
     margin: 40px
-    width: 100%
     flex-direction: row
     justify-content: space-around
 
@@ -55,7 +54,14 @@ footer
   .rights p
     color: #ffffffbb !important
 
-@media (max-width:512px) 
+@media (min-width:801px)
+  #logoSpace
+    width: 100%
+
+@media (max-width:800px) 
+
+  .siteButton,#logoSpace a
+    display: none
 
   Footer, footer a, footer p 
     font-size: 12px
