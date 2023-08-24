@@ -30,6 +30,8 @@ O projeto ainda está em desenvolvimento e as próximas atualizações serão vo
 -   [ ] Nova sessão em "Avançar";
 -   [x] Lista de e-mails oficiais;
 -   [x] Sistema de pesquisa.
+-   [x] Domínio.
+-   [ ] Otimização em SEO.
 
 <hr>
 
